@@ -1,0 +1,29 @@
+0x011AbdB32830e576AF0Ff7515e907Ed2812B1E26
+
+<Grid.Column>
+    <Form onSubmit={this.onSubmitFinal} error={!!this.state.errorMessageFinal}>
+        <Form.Field>
+        <label>Enter Bid Index to be viewed:</label>
+        <Input
+            value={this.state.valueFinal}
+            onChange={event =>
+            this.setState({ valueFinal: event.target.value })
+            }
+        />
+        </Form.Field>
+        <Message
+        error
+        header="Oops!"
+        content={this.state.errorMessageFinal}
+        />
+        <Button
+        disabled={!isComplete}
+        primary
+        loadingFinal={this.state.loadingFinal}
+        >
+        View chosen bid!
+        </Button>
+    </Form>
+    The index of the winning bid is: {this.state.winIndex}
+    </Grid.Column>
+</Grid.Row>
