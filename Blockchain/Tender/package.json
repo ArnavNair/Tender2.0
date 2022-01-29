@@ -100,7 +100,7 @@
     "setprototypeof": "^1.1.1",
     "sha3": "^1.2.6",
     "simple-concat": "^1.0.0",
-    "simple-get": "^2.8.1",
+    "simple-get": "^4.0.1",
     "solc": "^0.4.17",
     "sprintf-js": "^1.0.3",
     "statuses": "^1.5.0",
