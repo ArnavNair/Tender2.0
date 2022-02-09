@@ -59,7 +59,7 @@
     "mkdirp": "^0.5.1",
     "mkdirp-promise": "^5.0.1",
     "mock-fs": "^4.10.4",
-    "mout": "^0.11.1",
+    "mout": "^1.2.3",
     "ms": "^2.1.1",
     "mz": "^2.7.0",
     "nano-json-stream-parser": "^0.1.2",
