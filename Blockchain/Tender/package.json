@@ -64,7 +64,7 @@
     "mz": "^2.7.0",
     "nano-json-stream-parser": "^0.1.2",
     "negotiator": "^0.6.2",
-    "next": "^4.1.4",
+    "next": "^13.0.3",
     "next-routes": "^1.4.2",
     "number-to-bn": "^1.7.0",
     "object-assign": "^4.1.1",
